@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/main.js" defer></script>
+</head>
+<body>
+    <div class="box">
+        <h2>Random Password Generate</h2>
+        <input type="text" placeholder="Create password" id="myInput" readonly />
+        <table>
+            <th><button id="generate" onclick="generatePassword()">Generate</button></th>
+        </table>
+            <label>Already have password with ? </label>
+            <input type="text" id="checkPassword" 
+            placeholder="Let us to clean your password from anything how don't letters and numbers " />
+            <button onclick="checkP()">Check Password</button>
+            <input type="text" id="goodPassword" /> 
+            <button id="resetButton" onclick="resetButton()">Reset</button> 
+    </div>
+
+</body>
+</html>
